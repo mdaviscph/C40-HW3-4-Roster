@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009B04AB1B2786B400A145BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B04AA1B2786B400A145BA /* AppDelegate.swift */; };
+		009B04AD1B2786B400A145BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B04AC1B2786B400A145BA /* ViewController.swift */; };
+		009B04B01B2786B400A145BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009B04AE1B2786B400A145BA /* Main.storyboard */; };
+		009B04B21B2786B400A145BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009B04B11B2786B400A145BA /* Images.xcassets */; };
+		009B04B51B2786B400A145BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009B04B31B2786B400A145BA /* LaunchScreen.xib */; };
+		009B04C11B2786B400A145BA /* C40_mdavis_HW3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B04C01B2786B400A145BA /* C40_mdavis_HW3Tests.swift */; };
+		00D3F87E1B2A27F2005B32A6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3F87D1B2A27F2005B32A6 /* Person.swift */; };
+		00D3F8801B2A29F3005B32A6 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3F87F1B2A29F3005B32A6 /* PersonList.swift */; };
+		00D3F8821B2A4670005B32A6 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3F8811B2A4670005B32A6 /* PersonDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009B04BB1B2786B400A145BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009B049D1B2786B400A145BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009B04A41B2786B400A145BA;
+			remoteInfo = "C40 mdavis HW3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009B04A51B2786B400A145BA /* C40 mdavis HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C40 mdavis HW3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		009B04A91B2786B400A145BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009B04AA1B2786B400A145BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		009B04AC1B2786B400A145BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		009B04AF1B2786B400A145BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		009B04B11B2786B400A145BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		009B04B41B2786B400A145BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		009B04BA1B2786B400A145BA /* C40 mdavis HW3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "C40 mdavis HW3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		009B04BF1B2786B400A145BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009B04C01B2786B400A145BA /* C40_mdavis_HW3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C40_mdavis_HW3Tests.swift; sourceTree = "<group>"; };
+		00D3F87D1B2A27F2005B32A6 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		00D3F87F1B2A29F3005B32A6 /* PersonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
+		00D3F8811B2A4670005B32A6 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009B04A21B2786B400A145BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009B04B71B2786B400A145BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009B049C1B2786B400A145BA = {
+			isa = PBXGroup;
+			children = (
+				009B04A71B2786B400A145BA /* C40 mdavis HW3 */,
+				009B04BD1B2786B400A145BA /* C40 mdavis HW3Tests */,
+				009B04A61B2786B400A145BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009B04A61B2786B400A145BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009B04A51B2786B400A145BA /* C40 mdavis HW3.app */,
+				009B04BA1B2786B400A145BA /* C40 mdavis HW3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009B04A71B2786B400A145BA /* C40 mdavis HW3 */ = {
+			isa = PBXGroup;
+			children = (
+				009B04AA1B2786B400A145BA /* AppDelegate.swift */,
+				009B04AE1B2786B400A145BA /* Main.storyboard */,
+				00D3F87C1B2A27B9005B32A6 /* Model */,
+				009B04CA1B2786C600A145BA /* Controller */,
+				009B04B11B2786B400A145BA /* Images.xcassets */,
+				009B04B31B2786B400A145BA /* LaunchScreen.xib */,
+				009B04A81B2786B400A145BA /* Supporting Files */,
+			);
+			path = "C40 mdavis HW3";
+			sourceTree = "<group>";
+		};
+		009B04A81B2786B400A145BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				009B04A91B2786B400A145BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		009B04BD1B2786B400A145BA /* C40 mdavis HW3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				009B04C01B2786B400A145BA /* C40_mdavis_HW3Tests.swift */,
+				009B04BE1B2786B400A145BA /* Supporting Files */,
+			);
+			path = "C40 mdavis HW3Tests";
+			sourceTree = "<group>";
+		};
+		009B04BE1B2786B400A145BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				009B04BF1B2786B400A145BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		009B04CA1B2786C600A145BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				009B04AC1B2786B400A145BA /* ViewController.swift */,
+				00D3F8811B2A4670005B32A6 /* PersonDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		00D3F87C1B2A27B9005B32A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00D3F87D1B2A27F2005B32A6 /* Person.swift */,
+				00D3F87F1B2A29F3005B32A6 /* PersonList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009B04A41B2786B400A145BA /* C40 mdavis HW3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009B04C41B2786B400A145BA /* Build configuration list for PBXNativeTarget "C40 mdavis HW3" */;
+			buildPhases = (
+				009B04A11B2786B400A145BA /* Sources */,
+				009B04A21B2786B400A145BA /* Frameworks */,
+				009B04A31B2786B400A145BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C40 mdavis HW3";
+			productName = "C40 mdavis HW3";
+			productReference = 009B04A51B2786B400A145BA /* C40 mdavis HW3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		009B04B91B2786B400A145BA /* C40 mdavis HW3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009B04C71B2786B400A145BA /* Build configuration list for PBXNativeTarget "C40 mdavis HW3Tests" */;
+			buildPhases = (
+				009B04B61B2786B400A145BA /* Sources */,
+				009B04B71B2786B400A145BA /* Frameworks */,
+				009B04B81B2786B400A145BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009B04BC1B2786B400A145BA /* PBXTargetDependency */,
+			);
+			name = "C40 mdavis HW3Tests";
+			productName = "C40 mdavis HW3Tests";
+			productReference = 009B04BA1B2786B400A145BA /* C40 mdavis HW3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009B049D1B2786B400A145BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "mike davis";
+				TargetAttributes = {
+					009B04A41B2786B400A145BA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					009B04B91B2786B400A145BA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 009B04A41B2786B400A145BA;
+					};
+				};
+			};
+			buildConfigurationList = 009B04A01B2786B400A145BA /* Build configuration list for PBXProject "C40 mdavis HW3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009B049C1B2786B400A145BA;
+			productRefGroup = 009B04A61B2786B400A145BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009B04A41B2786B400A145BA /* C40 mdavis HW3 */,
+				009B04B91B2786B400A145BA /* C40 mdavis HW3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009B04A31B2786B400A145BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009B04B01B2786B400A145BA /* Main.storyboard in Resources */,
+				009B04B51B2786B400A145BA /* LaunchScreen.xib in Resources */,
+				009B04B21B2786B400A145BA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009B04B81B2786B400A145BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009B04A11B2786B400A145BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D3F87E1B2A27F2005B32A6 /* Person.swift in Sources */,
+				009B04AD1B2786B400A145BA /* ViewController.swift in Sources */,
+				00D3F8801B2A29F3005B32A6 /* PersonList.swift in Sources */,
+				00D3F8821B2A4670005B32A6 /* PersonDetailViewController.swift in Sources */,
+				009B04AB1B2786B400A145BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009B04B61B2786B400A145BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009B04C11B2786B400A145BA /* C40_mdavis_HW3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009B04BC1B2786B400A145BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009B04A41B2786B400A145BA /* C40 mdavis HW3 */;
+			targetProxy = 009B04BB1B2786B400A145BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		009B04AE1B2786B400A145BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009B04AF1B2786B400A145BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		009B04B31B2786B400A145BA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009B04B41B2786B400A145BA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009B04C21B2786B400A145BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		009B04C31B2786B400A145BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009B04C51B2786B400A145BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "C40 mdavis HW3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		009B04C61B2786B400A145BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "C40 mdavis HW3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		009B04C81B2786B400A145BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "C40 mdavis HW3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C40 mdavis HW3.app/C40 mdavis HW3";
+			};
+			name = Debug;
+		};
+		009B04C91B2786B400A145BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "C40 mdavis HW3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C40 mdavis HW3.app/C40 mdavis HW3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009B04A01B2786B400A145BA /* Build configuration list for PBXProject "C40 mdavis HW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009B04C21B2786B400A145BA /* Debug */,
+				009B04C31B2786B400A145BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009B04C41B2786B400A145BA /* Build configuration list for PBXNativeTarget "C40 mdavis HW3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009B04C51B2786B400A145BA /* Debug */,
+				009B04C61B2786B400A145BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009B04C71B2786B400A145BA /* Build configuration list for PBXNativeTarget "C40 mdavis HW3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009B04C81B2786B400A145BA /* Debug */,
+				009B04C91B2786B400A145BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009B049D1B2786B400A145BA /* Project object */;
+}
